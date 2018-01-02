@@ -2,6 +2,8 @@
 *.d
 *.a
 *.pyc
+*.gmo
+*.mo
 m4/*.m4
 m4/*.m4~
 .hgignore

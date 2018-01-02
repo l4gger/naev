@@ -1,8 +1,7 @@
-# Japanese translations for naev package
-# naev パッケージに対する英訳.
-# Copyright (C) 2017 Free Software Foundation, Inc.
+# Polish translations for naev package.
+# Copyright (C) 2017 Naev DevTeam
 # This file is distributed under the same license as the naev package.
-#  <bobbens@gmail.com>, 2017.
+#  <aranius@nullnet.pl>, 2017.
 #
 #: ../dat/missions/dvaered/assault_on_unicorn.lua:21
 #: ../dat/missions/empire/collective/ec03.lua:37
@@ -11,24 +10,26 @@ msgstr ""
 "Project-Id-Version: naev 0.7.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-01 23:02+0100\n"
-"PO-Revision-Date: 2017-07-13 08:52+0900\n"
-"Last-Translator:  <bobbens@gmail.com>\n"
-"Language-Team: Japanese\n"
-"Language: ja\n"
+"PO-Revision-Date: 2018-01-01 03:27+0100\n"
+"Last-Translator: l4gger@nullnet.pl\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../src/log.h:22 ../src/log.h:24
 #, c-format
 msgid "Warning: [%s] "
-msgstr "注意：「%s」　"
+msgstr "Uwaga: [%s] "
 
 #: ../src/log.h:26
 #, c-format
 msgid "ERROR %s:%d [%s]: "
-msgstr "エラー %s：%d「%s」："
+msgstr ""
 
 #: ../src/ai.c:432
 #, c-format
@@ -63,7 +64,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d AI Profile"
 msgid_plural "Loaded %d AI Profiles"
-msgstr[0] ""
+msgstr[0] "Wczytano %d Profil AI"
+msgstr[1] "Wczytano %d profile AI"
+msgstr[2] "Wczytano %d Profili AI"
 
 #: ../src/ai.c:608 ../src/land.c:1381
 #, c-format
@@ -194,26 +197,30 @@ msgid ""
 "Fuel:\n"
 "Ammo:\n"
 msgstr ""
+"Kredyty:\n"
+"Ładunek:\n"
+"Paliwo:\n"
+"Amunicja:\n"
 
 #: ../src/board.c:171 ../src/menu.c:225
 msgid "Credits"
-msgstr "クレジット"
+msgstr "Kredyty"
 
 #: ../src/board.c:173
 msgid "Cargo"
-msgstr ""
+msgstr "Ładunek"
 
 #: ../src/board.c:175
 msgid "Fuel"
-msgstr ""
+msgstr "Paliwo"
 
 #: ../src/board.c:177 ../src/outfit.c:824
 msgid "Ammo"
-msgstr ""
+msgstr "Amunicja"
 
 #: ../src/board.c:179
 msgid "Leave"
-msgstr ""
+msgstr "Opuść"
 
 #. you can't steal from the poor
 #: ../src/board.c:224
@@ -282,7 +289,7 @@ msgstr ""
 #: ../src/board.c:485 ../src/board.c:500 ../src/board.c:511
 #, c-format
 msgid "none\n"
-msgstr "なし\n"
+msgstr "brak\n"
 
 #: ../src/board.c:504
 #, c-format
@@ -333,7 +340,7 @@ msgstr ""
 
 #: ../src/comm.c:203
 msgid "Greet"
-msgstr "挨拶"
+msgstr ""
 
 #: ../src/comm.c:208 ../src/comm.c:257
 msgid "Bribe"
@@ -357,7 +364,7 @@ msgstr ""
 #: ../src/info.c:375 ../src/info.c:481 ../src/info.c:698 ../src/info.c:878
 #: ../src/info.c:966 ../src/map.c:249 ../src/map_find.c:1087
 msgid "Close"
-msgstr "閉じる"
+msgstr ""
 
 #: ../src/comm.c:422 ../src/comm.c:442 ../src/comm.c:444 ../src/comm.c:448
 #: ../src/comm.c:454 ../src/comm.c:461 ../src/comm.c:463
@@ -897,7 +904,7 @@ msgstr ""
 #: ../src/console.c:160
 #, c-format
 msgid "Warning: %s\n"
-msgstr "注意：%s\n"
+msgstr ""
 
 #: ../src/console.c:539
 msgid "Error printing results."
@@ -905,7 +912,7 @@ msgstr ""
 
 #: ../src/console.c:579
 msgid "\agWelcome to the Lua console!"
-msgstr "\ag%sへようこそ！"
+msgstr ""
 
 #: ../src/debris.c:57
 msgid "No debris special effects found."
@@ -921,7 +928,7 @@ msgstr ""
 
 #: ../src/dev.c:60
 msgid "Generation complete!"
-msgstr "生成完了！"
+msgstr ""
 
 #: ../src/dev_outfit.c:37 ../src/dev_outfit.c:97 ../src/dev_outfit.c:153
 #: ../src/dev_outfit.c:207 ../src/dev_outfit.c:277 ../src/dev_ship.c:35
@@ -955,7 +962,7 @@ msgstr ""
 
 #: ../src/dev_sysedit.c:206 ../src/dev_uniedit.c:205
 msgid "Edit"
-msgstr "編集"
+msgstr ""
 
 #: ../src/dev_sysedit.c:211 ../src/dev_uniedit.c:1410
 msgid "Remove"
@@ -964,11 +971,11 @@ msgstr ""
 #: ../src/dev_sysedit.c:216 ../src/dev_sysedit.c:1207 ../src/dev_uniedit.c:200
 #: ../src/dev_uniedit.c:1279 ../src/equipment.c:285
 msgid "Rename"
-msgstr ""
+msgstr "(R)Zmień nazwę"
 
 #: ../src/dev_sysedit.c:221
 msgid "New Planet"
-msgstr "新惑星"
+msgstr ""
 
 #: ../src/dev_sysedit.c:226
 msgid "Grid"
@@ -1087,11 +1094,11 @@ msgstr ""
 #: ../dat/missions/neutral/cargo_rush.lua:44
 #: ../dat/missions/neutral/trader_escort.lua:28
 msgid "None"
-msgstr "なし"
+msgstr ""
 
 #: ../src/dev_sysedit.c:1220
 msgid "Population"
-msgstr "人口"
+msgstr ""
 
 #: ../src/dev_sysedit.c:1229
 msgid "Class"
@@ -1371,23 +1378,23 @@ msgstr ""
 #. create the window
 #: ../src/dialogue.c:141 ../src/naev.c:423
 msgid "Warning"
-msgstr "注意"
+msgstr ""
 
 #. Add the OK button
 #: ../src/dialogue.c:145 ../src/dialogue.c:273 ../src/dialogue.c:330
 #: ../src/dialogue.c:720 ../src/options.c:205 ../src/options.c:476
 #: ../src/options.c:764 ../src/options.c:1114
 msgid "OK"
-msgstr "了解"
+msgstr ""
 
 #. buttons
 #: ../src/dialogue.c:384
 msgid "Yes"
-msgstr "はい"
+msgstr "Tak"
 
 #: ../src/dialogue.c:386
 msgid "No"
-msgstr "いいえ"
+msgstr "Nie"
 
 #: ../src/dialogue.c:415
 msgid "Unknown button clicked in YesNo dialogue!"
@@ -1395,7 +1402,7 @@ msgstr ""
 
 #: ../src/dialogue.c:487
 msgid "Done"
-msgstr "終了"
+msgstr "Dalej"
 
 #: ../src/dialogue.c:497
 #, c-format
@@ -1419,7 +1426,7 @@ msgstr ""
 #: ../src/options.c:1117 ../dat/rescue.lua:43 ../dat/rescue.lua:53
 #: ../dat/rescue.lua:118 ../dat/rescue.lua:164
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: ../src/economy.c:148
 #, c-format
@@ -1461,7 +1468,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Commodity"
 msgid_plural "Loaded %d Commodities"
-msgstr[0] "商品を%d個読み込んだ"
+msgstr[0] "Wczytano %d Towar"
+msgstr[1] "Wczytano %d Towary"
+msgstr[2] "Wczytano %d Towarów"
 
 #: ../src/economy.c:413
 #, c-format
@@ -1486,7 +1495,7 @@ msgstr ""
 #: ../src/perlin.c:559 ../src/perlin.c:663 ../src/perlin.c:753
 #: ../src/physics.c:484 ../src/plasmaf.c:71
 msgid "Out of Memory"
-msgstr "メモリ不足"
+msgstr ""
 
 #: ../src/economy.c:680
 msgid "Failed to solve the Economy System."
@@ -1496,21 +1505,21 @@ msgstr ""
 #: ../src/land.c:1161 ../src/land_outfits.c:116 ../src/land_shipyard.c:87
 #: ../src/land_trade.c:64
 msgid "Take Off"
-msgstr "出発"
+msgstr "Odleć"
 
 #. Check if player really wants to sell.
 #: ../src/equipment.c:288 ../src/equipment.c:2042
 msgid "Sell Ship"
-msgstr ""
+msgstr "Sprzedaj statek"
 
 #. ship is here
 #: ../src/equipment.c:291 ../src/equipment.c:1759
 msgid "Swap Ship"
-msgstr ""
+msgstr "Zamień statek"
 
 #: ../src/equipment.c:294
 msgid "Unequip"
-msgstr ""
+msgstr "Rozmontuj"
 
 #. text
 #: ../src/equipment.c:297
@@ -1537,18 +1546,39 @@ msgid ""
 "Location:\n"
 "Ship Status:"
 msgstr ""
+"Nazwa:\n"
+"Model:\n"
+"Klasa:\n"
+"Koszt:\n"
+"\n"
+"Masa:\n"
+"Czas skoku:\n"
+"Przyspieszenie:\n"
+"Prędkość:\n"
+"Obrót:\n"
+"\n"
+"Pochłanianie:\n"
+"Tarcza:\n"
+"Pancerz:\n"
+"Energia:\n"
+"Ładowność:\n"
+"Paliwo:\n"
+"\n"
+"Transport:\n"
+"Lokacja:\n"
+"Status statku:"
 
 #: ../src/equipment.c:328
 msgid "Available Ships"
-msgstr ""
+msgstr "Dostępne statki"
 
 #: ../src/equipment.c:330
 msgid "Available Outfits"
-msgstr ""
+msgstr "Dostępny osprzęt"
 
 #: ../src/equipment.c:523
 msgid "Weapon"
-msgstr ""
+msgstr "Broń"
 
 #: ../src/equipment.c:531
 msgid "Utility"
@@ -1660,7 +1690,7 @@ msgstr ""
 #: ../src/equipment.c:1675
 #, c-format
 msgid " in the %s system"
-msgstr ""
+msgstr " w systemie %s"
 
 #: ../src/equipment.c:1691
 #, c-format
@@ -1708,7 +1738,7 @@ msgstr ""
 #: ../src/land_shipyard.c:495 ../src/land_shipyard.c:501
 #: ../src/land_shipyard.c:507
 msgid "Are you sure?"
-msgstr ""
+msgstr "Na pewno?"
 
 #. confirm
 #: ../src/equipment.c:1927
@@ -1728,7 +1758,7 @@ msgstr ""
 
 #: ../src/equipment.c:1978
 msgid "Unequip Ship"
-msgstr ""
+msgstr "Rozmontuj"
 
 #. confirm
 #: ../src/equipment.c:1979
@@ -1873,7 +1903,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Event"
 msgid_plural "Loaded %d Events"
-msgstr[0] "%dのイベントを読み込んだ"
+msgstr[0] "Wczytano %d Wydarzenie"
+msgstr[1] "Wczytano %d Wydarzenia"
+msgstr[2] "Wczytano %d Wydarzeń"
 
 #: ../src/event.c:692
 #, c-format
@@ -2099,7 +2131,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Faction"
 msgid_plural "Loaded %d Factions"
-msgstr[0] "%dの党派を読み込んだ"
+msgstr[0] "Wczytano %d Frakcję"
+msgstr[1] "Wczytano %d Frakcje"
+msgstr[2] "Wczytano %d Frakcji"
 
 #: ../src/fleet.c:117
 #, c-format
@@ -2155,7 +2189,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Fleet"
 msgid_plural "Loaded %d Fleets"
-msgstr[0] ""
+msgstr[0] "Wczytano %d Flotę"
+msgstr[1] "Wczytano %d Floty"
+msgstr[2] "Wczytano %d Flot"
 
 #: ../src/font.c:966
 msgid "FT_Load_Glyph failed."
@@ -2375,6 +2411,13 @@ msgid ""
 "Ship:\n"
 "Fuel:"
 msgstr ""
+"Pilot:\n"
+"Data:\n"
+"Statystyki walk:\n"
+"\n"
+"Kredyty:\n"
+"Statek:\n"
+"Paliwo:"
 
 #: ../src/info.c:197
 #, c-format
@@ -2387,6 +2430,13 @@ msgid ""
 "%s\n"
 "%.0f (%d Jumps)"
 msgstr ""
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"%s Kredytów\n"
+"%s\n"
+"%.0f (%d skoków)"
 
 #: ../src/info.c:221
 msgid "Set GUI"
@@ -2413,7 +2463,7 @@ msgstr ""
 
 #: ../src/info.c:291 ../src/load.c:345
 msgid "Load"
-msgstr "ロード"
+msgstr "Wczytaj"
 
 #: ../src/info.c:295
 msgid "Override GUI"
@@ -3017,7 +3067,7 @@ msgstr ""
 
 #: ../src/input.c:100
 msgid "Target Planet"
-msgstr "目的惑星"
+msgstr ""
 
 #: ../src/input.c:100
 msgid "Cycles through planet targets."
@@ -3359,6 +3409,8 @@ msgstr ""
 msgid "%d joystick detected"
 msgid_plural "%d joysticks detected"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #. Already onboard.
 #: ../src/land.c:176
@@ -3385,11 +3437,11 @@ msgstr ""
 
 #: ../src/land.c:297
 msgid "Approach"
-msgstr ""
+msgstr "Porozmawiaj"
 
 #: ../src/land.c:367 ../src/land.c:375
 msgid "News"
-msgstr ""
+msgstr "Wiadomości"
 
 #: ../src/land.c:556 ../src/land.c:628
 msgid "Accept Mission"
@@ -3431,11 +3483,11 @@ msgstr ""
 #: ../src/land.c:818
 #, c-format
 msgid "Buy Local Map (%s)"
-msgstr ""
+msgstr "Kup lokalną mapę(%s)"
 
 #: ../src/land.c:932
 msgid "Landing Main"
-msgstr "メイン"
+msgstr "Lądowisko"
 
 #. Text
 #. Cargo Details
@@ -3465,31 +3517,31 @@ msgstr "メイン"
 #: ../dat/missions/trader/anxiousmerchant.lua:35
 #: ../dat/missions/zalek/zlk_cargorun.lua:31
 msgid "Spaceport Bar"
-msgstr "バー"
+msgstr "Bar portowy"
 
 #: ../src/land.c:941
 msgid "Missions"
-msgstr "ミッション"
+msgstr "Misje"
 
 #: ../src/land.c:946 ../src/map_find.c:1098
 msgid "Outfits"
-msgstr ""
+msgstr "Osprzęt"
 
 #: ../src/land.c:951
 msgid "Shipyard"
-msgstr "造船所"
+msgstr "Dok"
 
 #: ../src/land.c:957
 msgid "Equipment"
-msgstr "装備"
+msgstr "Urządzanie"
 
 #: ../src/land.c:962
 msgid "Commodity"
-msgstr "商売"
+msgstr "Handel"
 
 #: ../src/land.c:1167
 msgid "No refueling services."
-msgstr ""
+msgstr "Brak usług uzupełniania paliwa."
 
 #: ../src/land.c:1284
 msgid "Ship not fit for flight"
@@ -3572,7 +3624,7 @@ msgstr ""
 
 #: ../src/land_outfits.c:597
 msgid "You already know of everything this map contains."
-msgstr ""
+msgstr "Niestety już wiesz wszystko co zawiera ta mapa."
 
 #: ../src/land_outfits.c:602
 msgid "You already own this GUI."
@@ -3615,7 +3667,7 @@ msgstr ""
 
 #: ../src/land_shipyard.c:96
 msgid "Find Ships"
-msgstr "宇宙船検索"
+msgstr ""
 
 #. text
 #: ../src/land_shipyard.c:113
@@ -3805,11 +3857,11 @@ msgstr ""
 
 #: ../src/load.c:343
 msgid "Back"
-msgstr "戻る"
+msgstr "Powrót"
 
 #: ../src/load.c:347
 msgid "Del"
-msgstr "削除"
+msgstr "Kasuj"
 
 #: ../src/load.c:388
 #, c-format
@@ -3829,24 +3881,24 @@ msgid ""
 "\aDShip Model:\n"
 "\a0   %s"
 msgstr ""
-"\aD名前：\n"
+"\aDNazwa:\n"
 "\a0   %s\n"
-"\aDバージョン：\n"
+"\aDWersja:\n"
 "\a0   %s\n"
-"\aD日程：\n"
+"\aDData:\n"
 "\a0   %s\n"
-"\aD惑星名：\n"
+"\aDPlaneta:\n"
 "\a0   %s\n"
-"\aD資金：\n"
+"\aDKredyty:\n"
 "\a0   %s\n"
-"\aD宇宙船名：\n"
+"\aDNazwa statku:\n"
 "\a0   %s\n"
-"\aD宇宙船モデル：\n"
+"\aDModel statku:\n"
 "\a0   %s"
 
 #: ../src/load.c:435
 msgid "Save game version mismatch"
-msgstr ""
+msgstr "Niezgodność wersji zapisanej gry"
 
 #: ../src/load.c:436
 #, c-format
@@ -3859,12 +3911,12 @@ msgstr ""
 
 #: ../src/load.c:476
 msgid "Permanently Delete?"
-msgstr "完全に削除する？"
+msgstr ""
 
 #: ../src/load.c:477
 #, c-format
 msgid "Are you sure you want to permanently delete '%s'?"
-msgstr "'%s'を完全に削除する？"
+msgstr ""
 
 #: ../src/load.c:547
 msgid "Savegame file seems to have been deleted."
@@ -3874,7 +3926,7 @@ msgstr ""
 #: ../src/load.c:563 ../src/player.c:390
 #, c-format
 msgid "\agWelcome to %s!"
-msgstr "\ag%sへようこそ！"
+msgstr ""
 
 #: ../src/load.c:573
 msgid "Old version detected. Sanitizing ships for slots"
@@ -3900,7 +3952,7 @@ msgstr ""
 
 #: ../src/map.c:236
 msgid "Planets:"
-msgstr "惑星："
+msgstr ""
 
 #: ../src/map.c:243
 msgid "Services:"
@@ -3912,7 +3964,7 @@ msgstr ""
 
 #: ../src/map.c:387
 msgid "Multiple"
-msgstr "複数"
+msgstr ""
 
 #: ../src/map.c:525
 msgid " Volatile"
@@ -3940,7 +3992,7 @@ msgstr ""
 
 #: ../src/map.c:542
 msgid ","
-msgstr "、"
+msgstr ""
 
 #: ../src/map.c:550
 msgid " Interference"
@@ -3998,7 +4050,7 @@ msgstr ""
 
 #: ../src/map_find.c:1032
 msgid "Planet"
-msgstr "惑星"
+msgstr ""
 
 #: ../src/map_find.c:1036
 msgid "Outfit"
@@ -4006,7 +4058,7 @@ msgstr ""
 
 #: ../src/map_find.c:1040
 msgid "Ship"
-msgstr "宇宙船"
+msgstr ""
 
 #: ../src/map_find.c:1046
 #, c-format
@@ -4023,11 +4075,11 @@ msgstr ""
 
 #: ../src/map_find.c:1095
 msgid "Planets"
-msgstr "惑星"
+msgstr ""
 
 #: ../src/map_find.c:1101
 msgid "Ships"
-msgstr "宇宙船"
+msgstr ""
 
 #: ../src/map_overlay.c:246
 msgid "GOTO"
@@ -4039,27 +4091,27 @@ msgstr ""
 
 #: ../src/menu.c:208
 msgid "Load Game"
-msgstr "ロード"
+msgstr "Wczytaj Grę"
 
 #: ../src/menu.c:211
 msgid "New Game"
-msgstr "新ゲーム"
+msgstr "Nowa Gra"
 
 #: ../src/menu.c:214
 msgid "Tutorial"
-msgstr "チュートリアル"
+msgstr "Samouczek"
 
 #: ../src/menu.c:218
 msgid "Editor"
-msgstr "編集"
+msgstr "Edytor"
 
 #: ../src/menu.c:222 ../src/menu.c:437
 msgid "Options"
-msgstr "設定"
+msgstr "Opcje"
 
 #: ../src/menu.c:228 ../src/menu.c:439
 msgid "Exit"
-msgstr "終了"
+msgstr "Koniec gry"
 
 #: ../src/menu.c:312
 msgid "Main menu does not exist."
@@ -4067,11 +4119,11 @@ msgstr ""
 
 #: ../src/menu.c:431
 msgid "Resume"
-msgstr "続く"
+msgstr "WRóć"
 
 #: ../src/menu.c:434
 msgid "Info"
-msgstr "情報"
+msgstr "Info"
 
 #. Stop player sounds because sometimes they hang.
 #: ../src/menu.c:499
@@ -4080,23 +4132,23 @@ msgstr ""
 
 #: ../src/menu.c:569
 msgid "Continue"
-msgstr "戻る"
+msgstr "Kontynuuj"
 
 #: ../src/menu.c:572
 msgid "Restart"
-msgstr ""
+msgstr "Restart"
 
 #: ../src/menu.c:576
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu"
 
 #: ../src/menu.c:578
 msgid "Exit Game"
-msgstr "終了"
+msgstr "Opuść grę"
 
 #: ../src/menu.c:633
 msgid "Quit Naev"
-msgstr ""
+msgstr "Zakończ Naev"
 
 #: ../src/menu.c:633
 msgid "Are you sure you want to quit Naev?"
@@ -4169,7 +4221,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Mission"
 msgid_plural "Loaded %d Missions"
-msgstr[0] "%dのミッションを読み込んだ"
+msgstr[0] "Wczytano %d Misję"
+msgstr[1] "Wczytano %d Misje"
+msgstr[2] "Wczytano %d Misji"
 
 #: ../src/mission.c:1118
 #, c-format
@@ -4217,12 +4271,14 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Song"
 msgid_plural "Loaded %d Songs"
-msgstr[0] "%dの曲を読み込んだ"
+msgstr[0] "Wczytano %d Piosenkę"
+msgstr[1] "Wczytano %d Piosenki"
+msgstr[2] "Wczytano %d Piosenek"
 
 #: ../src/music.c:406
 #, c-format
 msgid "Music '%s' not found."
-msgstr ""
+msgstr "Muzyka '%s' nie została znaleziona."
 
 #: ../src/music.c:541
 #, c-format
@@ -4301,7 +4357,7 @@ msgstr ""
 
 #: ../src/naev.c:340
 msgid "Initializing subsystems..."
-msgstr "サブシステム起動中…"
+msgstr "Inicjalizacja podsystemów..."
 
 #: ../src/naev.c:348
 msgid "Error initializing joystick input"
@@ -4388,71 +4444,71 @@ msgstr ""
 #. order is very important as they're interdependent
 #: ../src/naev.c:695
 msgid "Loading Commodities..."
-msgstr "商品読み込み中…"
+msgstr "Wczytywanie towarów..."
 
 #. dep for space
 #: ../src/naev.c:697
 msgid "Loading Factions..."
-msgstr "党派読み込み中…"
+msgstr "Wczytywanie frakcji..."
 
 #. dep for fleet, space, missions, AI
 #: ../src/naev.c:699
 msgid "Loading AI..."
-msgstr "人工知能読み込み中…"
+msgstr "Wczytywanie AI..."
 
 #. dep for fleets
 #: ../src/naev.c:701
 msgid "Loading Missions..."
-msgstr "ミッション読み込み中…"
+msgstr "Wczytywanie misji..."
 
 #. no dep
 #: ../src/naev.c:703
 msgid "Loading Events..."
-msgstr "イベント読み込み中"
+msgstr "Wczytywanie wydarzeń..."
 
 #. no dep
 #: ../src/naev.c:705
 msgid "Loading Special Effects..."
-msgstr "特撮エフェクト読み込み中…"
+msgstr "Wczytywanie efektów specjalnych..."
 
 #. no dep
 #: ../src/naev.c:707
 msgid "Loading Damage Types..."
-msgstr "ダメージ読み込み中…"
+msgstr "Wczytywanie rodzajów uszkodzeń..."
 
 #. no dep
 #: ../src/naev.c:709
 msgid "Loading Outfits..."
-msgstr "モド読み込み中…"
+msgstr "Wczytywanie osprzętu..."
 
 #. dep for ships
 #: ../src/naev.c:711
 msgid "Loading Ships..."
-msgstr "宇宙船読み込み中…"
+msgstr "Wczytywanie statków..."
 
 #. dep for fleet
 #: ../src/naev.c:713
 msgid "Loading Fleets..."
-msgstr "フリーと読み込み中…"
+msgstr "Wczytywanie flot..."
 
 #. dep for space
 #: ../src/naev.c:715
 msgid "Loading Techs..."
-msgstr "技術読み込み中…"
+msgstr "Wczytywanie technologii..."
 
 #. dep for space
 #: ../src/naev.c:717
 msgid "Loading the Universe..."
-msgstr "宇宙読み込み中…"
+msgstr "Wczytywanie świata..."
 
 #: ../src/naev.c:719
 msgid "Populating Maps..."
-msgstr "地図書き込み中…"
+msgstr "Zasiedlanie map..."
 
 #. Initialize player stuff.
 #: ../src/naev.c:723
 msgid "Loading Completed!"
-msgstr "ロード完了"
+msgstr "Wczytywanie zakończone!"
 
 #: ../src/naev.c:906
 msgid "clock_gettime failed, disabling posix time."
@@ -4464,7 +4520,7 @@ msgstr ""
 
 #: ../src/naev.c:1129
 msgid "PAUSED"
-msgstr "中止"
+msgstr ""
 
 #: ../src/naev.c:1155
 msgid "Icon (icon.png) not found!"
@@ -4590,7 +4646,7 @@ msgstr ""
 
 #: ../src/ndata.c:163
 msgid "Missing Data"
-msgstr "データが見つからない"
+msgstr ""
 
 #: ../src/ndata.c:164
 msgid ""
@@ -4675,7 +4731,7 @@ msgstr ""
 #: ../src/nebula.c:177
 #, c-format
 msgid "Loaded %d Nebula Layers"
-msgstr ""
+msgstr "Wczytano %d Warstw Nebula"
 
 #: ../src/nebula.c:184
 msgid "No nebula found, generating (this may take a while)."
@@ -4689,17 +4745,17 @@ msgstr ""
 #. Warn user of what is happening.
 #: ../src/nebula.c:761
 msgid "Generating Nebula (slow, run once)..."
-msgstr "星雲生成中…"
+msgstr ""
 
 #. Start saving - compression can take a bit.
 #: ../src/nebula.c:776
 msgid "Compressing Nebula layers..."
-msgstr "星雲圧縮中…"
+msgstr "Kompresowanie warstw Nebula..."
 
 #. Warn user of what is happening.
 #: ../src/nebula.c:803
 msgid "Generating Nebula Puffs..."
-msgstr "星雲の欠片生成中…"
+msgstr ""
 
 #: ../src/nebula.c:881
 #, c-format
@@ -5376,7 +5432,7 @@ msgstr ""
 
 #: ../src/opengl.c:343
 msgid "GL out of memory"
-msgstr "GL メモリ不足"
+msgstr ""
 
 #: ../src/opengl.c:346
 msgid "GL table too large"
@@ -5468,27 +5524,27 @@ msgstr ""
 
 #: ../src/opengl.c:603 ../src/options.c:1401 ../src/options.c:1433
 msgid "fullscreen"
-msgstr "フルスクリーン"
+msgstr ""
 
 #: ../src/opengl.c:603
 msgid "window"
-msgstr "ウインドウ"
+msgstr ""
 
 #: ../src/opengl.c:604
 #, c-format
 msgid "r: %d, g: %d, b: %d, a: %d, db: %s, fsaa: %d, tex: %d"
-msgstr "赤：%d、緑：%d、青：%d、透：%d、DB：%s、FSAA：%d、TEX：%d"
+msgstr ""
 
 #: ../src/opengl.c:606 ../src/opengl.c:609 ../src/opengl.c:610
 #: ../src/opengl.c:611 ../src/opengl.c:612 ../src/opengl.c:613
 msgid "yes"
-msgstr "有"
+msgstr ""
 
 #: ../src/opengl.c:606 ../src/opengl.c:609 ../src/opengl.c:610
 #: ../src/opengl.c:611 ../src/opengl.c:612 ../src/opengl.c:613
 #: ../dat/missions/neutral/aristodrink.lua:82
 msgid "no"
-msgstr "無"
+msgstr ""
 
 #: ../src/opengl.c:608
 #, c-format
@@ -5499,12 +5555,12 @@ msgstr ""
 #: ../src/opengl.c:614 ../src/sound_openal.c:358 ../src/sound_sdlmix.c:130
 #, c-format
 msgid "Renderer: %s"
-msgstr "レンダラ：%s"
+msgstr ""
 
 #: ../src/opengl.c:615
 #, c-format
 msgid "Version: %s"
-msgstr "バージョン：%s"
+msgstr ""
 
 #: ../src/opengl.c:619
 #, c-format
@@ -5604,7 +5660,7 @@ msgstr ""
 #: ../src/options.c:221
 #, c-format
 msgid "Commit: %s"
-msgstr "コミット：%s"
+msgstr ""
 
 #: ../src/options.c:228
 msgid "not using ndata"
@@ -5720,7 +5776,7 @@ msgstr ""
 
 #: ../src/options.c:734
 msgid "Music"
-msgstr "音楽"
+msgstr ""
 
 #: ../src/options.c:734
 msgid "Sound"
@@ -5762,11 +5818,11 @@ msgstr ""
 #: ../dat/gui/slim.lua:1024 ../dat/gui/slim.lua:1041 ../dat/gui/slim.lua:1080
 #: ../dat/gui/slim.lua:1081
 msgid "none"
-msgstr "なし"
+msgstr "brak"
 
 #: ../src/options.c:807
 msgid "OpenAL"
-msgstr "OpenAL"
+msgstr ""
 
 #: ../src/options.c:810
 msgid "EFX (More CPU)"
@@ -5799,7 +5855,7 @@ msgstr ""
 
 #: ../src/options.c:1127 ../dat/scripts/pilot/empire.lua:372
 msgid "Resolution"
-msgstr "解像度"
+msgstr ""
 
 #: ../src/options.c:1133
 msgid "Fullscreen"
@@ -5819,7 +5875,7 @@ msgstr ""
 
 #: ../src/options.c:1227
 msgid "OpenGL"
-msgstr "OpenGL"
+msgstr ""
 
 #: ../src/options.c:1230
 msgid "Vertical Sync"
@@ -6224,7 +6280,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Outfit"
 msgid_plural "Loaded %d Outfits"
-msgstr[0] ""
+msgstr[0] "Wczytano %d Wyposażenie"
+msgstr[1] "Wczytano %d Wyposażenia"
+msgstr[2] "Wczytano %d Wyposażeń"
 
 #: ../src/outfit.c:2409
 #, c-format
@@ -6241,7 +6299,7 @@ msgstr ""
 #: ../src/perlin.c:669
 #, c-format
 msgid "Generating Nebula of size %dx%dx%d"
-msgstr "%dx%dx%dの星雲を生成中"
+msgstr ""
 
 #. Results
 #: ../src/perlin.c:715
@@ -6548,7 +6606,7 @@ msgstr ""
 #: ../src/player.c:259
 #, c-format
 msgid "\agWelcome to %s Tutorial!"
-msgstr "\ag%sのチュートリアルへようこそ！"
+msgstr ""
 
 #: ../src/player.c:265 ../src/player.c:397
 msgid "Ship not properly set by module."
@@ -7118,7 +7176,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Ship"
 msgid_plural "Loaded %d Ships"
-msgstr[0] "%dの宇宙船を読み込んだ"
+msgstr[0] "Wczytano %d Statek"
+msgstr[1] "Wczytano %d Statki"
+msgstr[2] "Wczytano %d Statków"
 
 #: ../src/shipstats.c:83
 msgid "Speed"
@@ -7342,7 +7402,9 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Sound"
 msgid_plural "Loaded %d Sounds"
-msgstr[0] "%dの音を読み込んだ"
+msgstr[0] "Wczytano %d Dźwięk"
+msgstr[1] "Wczytano %d Dźwięki"
+msgstr[2] "Wczytano %d Dźwięków"
 
 #: ../src/sound_openal.c:224
 msgid "Unable to open default sound device"
@@ -7505,11 +7567,11 @@ msgstr ""
 
 #: ../src/sound_sdlmix.c:123
 msgid "Stereo"
-msgstr "ステレオ"
+msgstr ""
 
 #: ../src/sound_sdlmix.c:123
 msgid "Mono"
-msgstr "モノ"
+msgstr ""
 
 #: ../src/sound_sdlmix.c:126
 msgid "SDL_Mixer is newer than compiled version"
@@ -7522,7 +7584,7 @@ msgstr ""
 #: ../src/sound_sdlmix.c:131
 #, c-format
 msgid "Version: %d.%d.%d [compiled: %d.%d.%d]"
-msgstr "バージョン：%d.%d.%d「コンパイル：%d.%d.%d」"
+msgstr ""
 
 #: ../src/sound_sdlmix.c:216
 #, c-format
@@ -7836,13 +7898,17 @@ msgstr ""
 #, c-format
 msgid "Loaded %d Star System"
 msgid_plural "Loaded %d Star Systems"
-msgstr[0] "%dの恒星系を読み込んだ"
+msgstr[0] "Wczytano %d System gwiezdny"
+msgstr[1] "Wczytano %d Systemy gwiezdne"
+msgstr[2] "Wczytano %d Systemów gwiezdnych"
 
 #: ../src/space.c:3276
 #, c-format
 msgid "       with %d Planet"
 msgid_plural "       with %d Planets"
-msgstr[0] "　　　%dの惑星あり"
+msgstr[0] "       z %d Planetą"
+msgstr[1] "       z %d Planetami"
+msgstr[2] "       z %d Planetami"
 
 #: ../src/space.c:3648 ../src/space.c:3692
 msgid "Unknown marker type."
@@ -7922,6 +7988,8 @@ msgstr ""
 msgid "Loaded %d tech group"
 msgid_plural "Loaded %d tech groups"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: ../src/threadpool.c:199
 msgid "Tried to dequeue while the queue was empty!"
@@ -8495,7 +8563,7 @@ msgstr ""
 
 #: ../dat/ai/empire.lua:20
 msgid "The Emperor sees all."
-msgstr ""
+msgstr "Imperator widzi wszystko."
 
 #. Get refuel chance
 #: ../dat/ai/empire.lua:29 ../dat/ai/empire.lua:32
@@ -11492,6 +11560,10 @@ msgid ""
 "Empire Armada. \"We haven't had such a successful campaign in ages!\" - Raid "
 "Steele, spokesman for recruiting campaign."
 msgstr ""
+"Strategia rekrutacji Imperatora przynosi sukcesy! Wielu młodych żołnierzy "
+"zasila szeregi Armady Imperium.\"Od dawna żadna z naszych kampani "
+"rekrutacyjnych nie była tak skuteczna!\" - powiedział Raid Steele,rzecznik "
+"prasowy kampanii rekrutacyjnej..."
 
 #.
 #. Human interest.
@@ -11526,65 +11598,66 @@ msgstr ""
 #. about the appearance of the NPC!
 #: ../dat/events/neutral/npc.lua:42
 msgid "This person seems to be here to relax."
-msgstr ""
+msgstr "Widać że ta osoba siedzi tu dla rozrywki."
 
 #: ../dat/events/neutral/npc.lua:43
 msgid "There is a civilian sitting on one of the tables."
-msgstr ""
+msgstr "Przy jednym ze stolików siedzi jakiś cywil."
 
 #: ../dat/events/neutral/npc.lua:44
 msgid "There is a civilian sitting there, looking somewhere else."
-msgstr ""
+msgstr "Siedzi tutaj jakiś cywil ale nie zwraca na ciebie uwagi."
 
 #: ../dat/events/neutral/npc.lua:45
 msgid ""
 "A worker sits at one of the tables, wearing a nametag saying \"Go away\"."
 msgstr ""
+"Przy jednym ze stolików siedzi klient, ma załączony Vtag \"Odwal się\"."
 
 #: ../dat/events/neutral/npc.lua:46
 msgid ""
 "A civilian sits at the bar, seemingly serious about the cocktails on offer."
-msgstr ""
+msgstr "Przy barze siedzi jakiś cywil zajęty czytaniem karty drinków."
 
 #: ../dat/events/neutral/npc.lua:47
 msgid "A civilian wearing a shirt saying: \"Ask me about Jaegnhild\""
-msgstr ""
+msgstr "Cywil w koszulce z napisem: \"Zapytaj mnie o Jaegnhild\""
 
 #: ../dat/events/neutral/npc.lua:48
 msgid "There is a civilian sitting in the corner."
-msgstr ""
+msgstr "Jakiś cywil siedzi w rogu."
 
 #: ../dat/events/neutral/npc.lua:49
 msgid "A civilian feverishly concentrating on a fluorescing drink."
-msgstr ""
+msgstr "Jakiś cywil zgłębia barwy fluorescencyjnych drinków."
 
 #: ../dat/events/neutral/npc.lua:50
 msgid "A civilian drinking alone."
-msgstr ""
+msgstr "Samotnie pijący cywil."
 
 #: ../dat/events/neutral/npc.lua:51
 msgid "This person seems friendly enough."
-msgstr ""
+msgstr "Ta osoba wygląda dość przyjaźnie."
 
 #: ../dat/events/neutral/npc.lua:52
 msgid "A civilian sitting at the bar."
-msgstr ""
+msgstr "Przy barze siedzi jakiś cywil."
 
 #: ../dat/events/neutral/npc.lua:53
 msgid "This person is idly browsing a news terminal."
-msgstr ""
+msgstr "Ta osoba ze znudzeniem ogląda wiadomości w terminalu."
 
 #: ../dat/events/neutral/npc.lua:54
 msgid "A worker sits drinks, but not working."
-msgstr ""
+msgstr "Robotnik sobie tutaj siedzi popijając drinki."
 
 #: ../dat/events/neutral/npc.lua:55
 msgid "A worker slouched against the bar, nursing a drink."
-msgstr ""
+msgstr "Robotnik opiera się o bar sącząc drinka."
 
 #: ../dat/events/neutral/npc.lua:56
 msgid "This worker seems bored with everything but their drink."
-msgstr ""
+msgstr "Ten robotnik jest zainteresowany tylko drinkiem."
 
 #. Lore messages. These come in general and factional varieties.
 #. General lore messages will be said by non-faction NPCs, OR by faction NPCs if they have no factional text to say.
@@ -12686,7 +12759,7 @@ msgstr ""
 #. localization stuff, translators would work here
 #: ../dat/events/start.lua:7
 msgid "Flying License Acquired!"
-msgstr ""
+msgstr "Zdobyto licencję Pilota!"
 
 #: ../dat/events/start.lua:8
 #, lua-format
@@ -12696,10 +12769,14 @@ msgid ""
 "pilot, and one of my best students to date. You can keep that ship as a free "
 "gift.\""
 msgstr ""
+"\"Moje gratulacje kursancie %s!\" z radia wydobył się okrzyk instruktora. "
+"\"Zasłużyłeś na swoją licencję pilota! I muszę przyznać że poszło Ci "
+"najlepiej z moich podopiecznych. Dlatego w nagrodę możesz zatrzymać ten "
+"wysłużony już statek szkoleniowy. Dbaj o niego dobrze i powodzenia!\""
 
 #: ../dat/events/start.lua:10
 msgid "Refresher"
-msgstr ""
+msgstr "Odświeżenie wiadomości"
 
 #: ../dat/events/start.lua:11
 msgid ""
@@ -12707,10 +12784,12 @@ msgid ""
 "a quick refresher on the flight controls, just to make sure you've got it "
 "all down?\""
 msgstr ""
+"\"Poszło ci tak szybko że zostało mi jeszcze trochę czasu.\" powiedział "
+"instruktor. \"Czy chcesz jeszcze raz odświeżyć listę klawiszy kontrolnych?\""
 
 #: ../dat/events/start.lua:13
 msgid "No, thanks"
-msgstr ""
+msgstr "Nie, dzięki"
 
 #: ../dat/events/start.lua:14
 msgid ""
@@ -12718,14 +12797,17 @@ msgid ""
 "remember that you can review all of your ship's controls in the Options "
 "menu. Good luck!\" And with that, you set off on your journey."
 msgstr ""
+"\"Ha, jesteś w gorącej wodzie kąpany co? Nieważne, tylko pamiętaj że listę "
+"klawiszy kontrolnych znajdziesz w menu Opcji. Powodzenia!\" Po czym "
+"rozłączył się, a twoja podróż właśnie się zaczęła..."
 
 #: ../dat/events/start.lua:16
 msgid "I'll Take Some Refreshments"
-msgstr ""
+msgstr "Tak, zróbmy powtórkę"
 
 #: ../dat/events/start.lua:17
 msgid "\"Alright. Let's review your flight controls, then.\""
-msgstr ""
+msgstr "\"Dobrze, w takim razie odświeżmy twoje wiadomości...\""
 
 #: ../dat/events/start.lua:19
 #, lua-format
@@ -12734,6 +12816,9 @@ msgid ""
 "ship will automatically follow the mouse pointer. Personally, I like to use "
 "the keyboard, but to each his own.\""
 msgstr ""
+"\"Poruszasz statkiem używając klawiszy %s, %s, %s, %s. Możesz także wcisnąć "
+"%s żeby statek automatycznie podążał za kursorem myszy ale ja osobiście wolę "
+"używać klawiatury. Twoja sprawa...\""
 
 #: ../dat/events/start.lua:21
 #, lua-format
@@ -12742,12 +12827,18 @@ msgid ""
 "them on your view, minimap, or overlay map. %s targets the nearest hostile "
 "ship, which is very useful in the heat of battle.\""
 msgstr ""
+"\"Oznaczasz planety, statki i punkty skoku używając \abLPM (Lewego przycisku "
+"myszy)\a0 w widoku, mini-mapie lub mapie poglądowej. %s pozwala zaznaczyć "
+"najbliższy wrogi statek - niezwykle przydatne w trakcie walki.\""
 
 #: ../dat/events/start.lua:23
 msgid ""
 "\"You can do whatever action is most appropriate with a planet, ship, or "
 "jump point by \abdouble-clicking\a0 on it or its indicator on your radar.\""
 msgstr ""
+"\"Możesz wykonać każdą czynność, która jest najbardziej odpowiednia dla "
+"planety, statku lub punktu skoku, \abklikając dwukrotnie\a0 na nią lub jej "
+"znacznik na radarze.\""
 
 #: ../dat/events/start.lua:25
 #, lua-format
@@ -12757,6 +12848,10 @@ msgid ""
 "ship first, and some homing missile weapons require you to face your target "
 "until you get a lock.\""
 msgstr ""
+"\"Strzelasz z Głównej broni za pomocą %s, a z pomocniczej za pomocą %s. "
+"Pamiętaj że niektóre bronie wymagają oznaczenia celu do poprawnego "
+"działania, a niektóre pociski wymuszają bycie skierowanym w jego stronę aż "
+"do 'Namierzenia'.\""
 
 #: ../dat/events/start.lua:27
 #, lua-format
@@ -12765,6 +12860,9 @@ msgid ""
 "know about in the current system. You can right-click anywhere on this map "
 "to engage Autonav, which will automatically fly you to that location.\""
 msgstr ""
+"\"Wciśnięcie %s otwiera Mapę Poglądową. Jest to mapa obecnego systemu z "
+"nałożonymi dodatkowymi informacjami. Kilknięcie \abPPM (Prawym przyciskiem "
+"myszy)\a0 na tej mapie powoduje Autonawigację w to miejsce.\""
 
 #: ../dat/events/start.lua:29
 #, lua-format
@@ -12773,6 +12871,10 @@ msgid ""
 "you know about. From here, you can also use Autonav to easily and quickly "
 "travel between systems.\""
 msgstr ""
+"\"Wciśnięcie %s uruchamia Mapę Gwiezdną, na której możesz obejrzeć wszystkie "
+"znane Ci systemy, nie przejmuj się że jest tak mała - w trakcie podróży "
+"odkryjesz kolejne. Na tej mapie też możesz używać PPM aby uruchomić "
+"Autonawigację i przyspieszyć rozgrywkę.\""
 
 #: ../dat/events/start.lua:31
 #, lua-format
@@ -12780,6 +12882,8 @@ msgid ""
 "\"Pressing %s will bring up the small menu, where you can quit the game or "
 "access the options menu.\""
 msgstr ""
+"\"Wciśnięcie %s uruchamia małe Menu gdzie możesz zmienić ustawienia lub "
+"zakończyć grę.\""
 
 #: ../dat/events/start.lua:33
 #, lua-format
@@ -12787,6 +12891,8 @@ msgid ""
 "\"And finally, pressing %s will bring up your information screen, where you "
 "can view your stats and missions.\""
 msgstr ""
+"\"Wreszcie wciśnięcie %s uaktywnia Okno Informacyjne, gdzie możesz przejrzeć "
+"swoje statystyki oraz misje.\""
 
 #: ../dat/events/start.lua:35
 #, lua-format
@@ -12797,6 +12903,11 @@ msgid ""
 "tutorials from the main menu. Good luck, %s!\" And with that, you set off on "
 "your journey."
 msgstr ""
+"\"I to mniej więcej wszystko! Jest sporo innych klawiszy ale nie są tak "
+"ważne - możesz je znaleźć w menu Opcji. Jeśli chcesz więcej informacji o "
+"rozgrywce przejdź przez Samouczek dostępny w Menu Głównym gry. Tymczasem "
+"jeszcze raz życzę powodzenia pilocie %s!\" Po tych słowach rozłączył się, a "
+"twoja podróż właśnie się zaczęła..."
 
 #: ../dat/events/start.lua:40
 msgid "Pathfinder"
@@ -12804,7 +12915,7 @@ msgstr ""
 
 #: ../dat/events/start.lua:41
 msgid "Death Trap"
-msgstr ""
+msgstr "Śmiertelna pułapka"
 
 #: ../dat/events/start.lua:42
 msgid "Little Rascal"
@@ -12820,7 +12931,7 @@ msgstr ""
 
 #: ../dat/events/start.lua:45
 msgid "Vagabond"
-msgstr ""
+msgstr "Włóczykij"
 
 #: ../dat/events/start.lua:46
 msgid "Sky Cutter"
@@ -12844,7 +12955,7 @@ msgstr ""
 
 #: ../dat/events/start.lua:51
 msgid "Icarus"
-msgstr ""
+msgstr "Ikar"
 
 #: ../dat/events/start.lua:52
 msgid "Heart of Lead"
@@ -12995,7 +13106,7 @@ msgstr ""
 #: ../dat/events/tutorial/tutorial-basic.lua:7
 #: ../dat/events/tutorial/tutorial.lua:10
 msgid "Tutorial: Basic Operation"
-msgstr "チュートリアル：操作の基礎"
+msgstr ""
 
 #: ../dat/events/tutorial/tutorial-basic.lua:8
 msgid ""
@@ -13145,7 +13256,7 @@ msgstr ""
 #: ../dat/events/tutorial/tutorial-combat1.lua:6
 #: ../dat/events/tutorial/tutorial.lua:13
 msgid "Tutorial: Basic Combat"
-msgstr "チュートリアル：戦いの基礎"
+msgstr ""
 
 #: ../dat/events/tutorial/tutorial-combat1.lua:7
 msgid ""
@@ -14292,7 +14403,7 @@ msgstr ""
 #. Land hook.
 #: ../dat/events/tutorial/tutorial-missions.lua:52
 msgid "Tutorial employee"
-msgstr "チュートリアルの職人"
+msgstr ""
 
 #: ../dat/events/tutorial/tutorial-missions.lua:52
 msgid "This person has a mission for you!"
@@ -14443,7 +14554,7 @@ msgstr ""
 #. localization stuff, translators would work here
 #: ../dat/events/tutorial/tutorial.lua:5
 msgid "Tutorial Menu"
-msgstr "チュートリアルのメニュー"
+msgstr ""
 
 #: ../dat/events/tutorial/tutorial.lua:6
 msgid ""
@@ -14461,7 +14572,7 @@ msgstr ""
 
 #: ../dat/events/tutorial/tutorial.lua:22
 msgid "Quit to Main Menu"
-msgstr ""
+msgstr "Wróć do Menu"
 
 #. Set defaults just in case.
 #. List of all tutorial modules, in order of appearance.
@@ -15314,13 +15425,13 @@ msgstr ""
 #. --
 #: ../dat/gui/slim.lua:192 ../dat/gui/slim.lua:455
 msgid "Cooling down..."
-msgstr ""
+msgstr "Chłodzenie..."
 
 #. Colour the planet name based on friendliness.
 #: ../dat/gui/slim.lua:402
 #, lua-format
 msgid " (%st free)"
-msgstr ""
+msgstr " (pozostaje %st)"
 
 #: ../dat/gui/slim.lua:410
 #, lua-format
@@ -15422,6 +15533,8 @@ msgstr ""
 msgid "%d (%d jump)"
 msgid_plural "%d (%d jumps)"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: ../dat/gui/slim.lua:1044
 msgid "Pilot: "
@@ -15433,12 +15546,11 @@ msgstr ""
 
 #: ../dat/gui/slim.lua:1044
 msgid "Time: "
-msgstr ""
+msgstr "Czas: "
 
 #: ../dat/gui/slim.lua:1044
-#, fuzzy
 msgid "Credits: "
-msgstr "クレジット"
+msgstr "Kredyty: "
 
 #: ../dat/gui/slim.lua:1045
 msgid "Nav: "
@@ -15446,7 +15558,7 @@ msgstr ""
 
 #: ../dat/gui/slim.lua:1045
 msgid "Fuel: "
-msgstr ""
+msgstr "Paliwo: "
 
 #: ../dat/gui/slim.lua:1046
 msgid "WSet: "
@@ -15454,11 +15566,11 @@ msgstr ""
 
 #: ../dat/gui/slim.lua:1046
 msgid "Cargo: "
-msgstr ""
+msgstr "Ładunek: "
 
 #: ../dat/gui/slim.lua:1095
 msgid "Too big!"
-msgstr ""
+msgstr "Za dużo!"
 
 #.
 #. The revamped version of the slim GUI
@@ -18196,7 +18308,7 @@ msgstr ""
 #: ../dat/missions/empire/collective/ec04.lua:25
 #, lua-format
 msgid "Planet %s"
-msgstr "%s惑星"
+msgstr ""
 
 #: ../dat/missions/empire/collective/ec04.lua:28
 msgid ""
@@ -18359,7 +18471,7 @@ msgstr ""
 #: ../dat/missions/empire/collective/ec05.lua:41
 #: ../dat/missions/empire/shipping/es02.lua:34
 msgid "Mission Failure"
-msgstr "ミッション失敗"
+msgstr "Niepowodzenie"
 
 #: ../dat/missions/empire/collective/ec05.lua:43
 msgid ""
@@ -18592,7 +18704,7 @@ msgstr ""
 #: ../dat/missions/flf/empa/flf_empa03.lua:83
 #: ../dat/missions/neutral/nebu_satellite.lua:24
 msgid "Mission Success"
-msgstr "ミッション完了"
+msgstr "Powodzenie"
 
 #: ../dat/missions/empire/collective/ec06.lua:27
 msgid "Cowardly Behaviour"
@@ -18728,7 +18840,7 @@ msgstr ""
 #.
 #: ../dat/missions/empire/emp_cargo00.lua:13
 msgid "You see an Empire Lieutenant who seems to be looking at you."
-msgstr ""
+msgstr "Przygląda się tobie jakiś imperialny porucznik."
 
 #: ../dat/missions/empire/emp_cargo00.lua:14
 #: ../dat/missions/empire/emp_cargo00.lua:19
@@ -18765,7 +18877,7 @@ msgstr ""
 #: ../dat/missions/zalek/zlk_test.lua:16
 #, lua-format
 msgid "%s credits"
-msgstr "%sクレジット"
+msgstr "%s kredytów"
 
 #: ../dat/missions/empire/emp_cargo00.lua:16
 #, lua-format
@@ -18779,6 +18891,15 @@ msgid ""
 "We're having another recruitment operation and would be interested in having "
 "another pilot among us. Would you be interested in working for the Empire?\""
 msgstr ""
+"Przysiadasz się do imperialnego porucznika, który w wojskowym stylu "
+"rozpoczyna rozmowę:\n"
+"\"Witaj pilocie. Nazywam się Czesc...\" - tu spojrzał na ciebie szukając "
+"oznak śmiechu - \" i pracuję w stopniu porucznika w kadrach Armady "
+"Imperium.\n"
+"Aktualnie mamy nową akcję rekrutacyjną i chętnie zatrudniamy nowych "
+"pilotów. \n"
+"Skoro ze mną rozmawiasz to powiedz mi czy interesuje cię praca dla Imperium?"
+"\""
 
 #: ../dat/missions/empire/emp_cargo00.lua:24
 #, lua-format
@@ -18820,7 +18941,7 @@ msgstr ""
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo5.lua:37
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo6.lua:37
 msgid "Lieutenant"
-msgstr ""
+msgstr "Porucznik"
 
 #. Intro text
 #. Accept the mission
@@ -18940,7 +19061,7 @@ msgstr ""
 #: ../dat/missions/empire/es_cargo.lua:10
 #, lua-format
 msgid "ES: Cargo transport (%d tonnes of %s)"
-msgstr ""
+msgstr "ES: Transport ładunku (%d ton z %s)"
 
 #. makes sure pilot is not currently on Gamma Polaris
 #. Set marker to a system, visible in any mission computer and the onboard computer.
@@ -18974,12 +19095,18 @@ msgid ""
 "Piracy risk: %s\n"
 "Time limit: %s"
 msgstr ""
+"ES: Transport Ładunku do %s w systemie %s\n"
+"Ładunek: %s (%d ton)\n"
+"Liczba skoków: %d\n"
+"Odległość: %d\n"
+"Ryzyko piractwa: %s\n"
+"Ograniczenie czasowe: %s"
 
 #: ../dat/missions/empire/es_cargo.lua:23
 #: ../dat/missions/empire/longdistanceshipping/es_longdistancecargo.lua:23
 #: ../dat/missions/pirate/pir_cargo.lua:43
 msgid "Ship is full"
-msgstr ""
+msgstr "Statek jest pełny"
 
 #: ../dat/missions/empire/es_cargo.lua:24
 #: ../dat/missions/empire/longdistanceshipping/es_longdistancecargo.lua:24
@@ -19051,9 +19178,8 @@ msgstr ""
 #: ../dat/missions/empire/longdistanceshipping/es_longdistancecargo.lua:38
 #: ../dat/missions/pirate/pir_cargo.lua:52
 #: ../dat/missions/zalek/zlk_test.lua:24
-#, fuzzy
 msgid "Too many missions"
-msgstr "ミッション読み込み中…"
+msgstr ""
 
 #: ../dat/missions/empire/es_cargo.lua:39
 #: ../dat/missions/empire/longdistanceshipping/es_longdistancecargo.lua:39
@@ -19224,7 +19350,7 @@ msgstr ""
 msgid ""
 "Lieutenant Czesc from the Empire Aramda Shipping Division is sitting at the "
 "bar."
-msgstr ""
+msgstr "Przy barze siedzi porucznik Czesc z działu kadr Armady Imperium."
 
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo1.lua:13
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo1.lua:18
@@ -19236,9 +19362,8 @@ msgstr ""
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo3.lua:14
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo4.lua:14
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo5.lua:14
-#, fuzzy
 msgid "50000 credits"
-msgstr "%sクレジット"
+msgstr "50000 kredytów"
 
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo1.lua:15
 msgid ""
@@ -19299,7 +19424,7 @@ msgstr ""
 msgid ""
 "Lieutenant Czesc from the Empire Armada Shipping Division is sitting at the "
 "bar."
-msgstr ""
+msgstr "Przy barze siedzi porucznik Czesc z działu kadr Armady Imperium."
 
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo2.lua:13
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo2.lua:18
@@ -19457,9 +19582,8 @@ msgid "Empire Long Distance Recruitment"
 msgstr ""
 
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo6.lua:14
-#, fuzzy
 msgid "5000 credits"
-msgstr "%sクレジット"
+msgstr "5000 kredytów"
 
 #: ../dat/missions/empire/longdistanceshipping/emp_longdistancecargo6.lua:15
 msgid "Deliver Lieutenant Czesc to Halir in the Gamma Polaris system."
@@ -19563,7 +19687,7 @@ msgstr ""
 
 #: ../dat/missions/empire/shipping/es00.lua:21
 msgid "Mission Report"
-msgstr ""
+msgstr "Raport z misji"
 
 #: ../dat/missions/empire/shipping/es00.lua:23
 #, lua-format
@@ -20732,9 +20856,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/flf/empa/flf_empa03.lua:35
-#, fuzzy
 msgid "The Mission"
-msgstr "ミッション"
+msgstr "Misje"
 
 #: ../dat/missions/flf/empa/flf_empa03.lua:36
 msgid ""
@@ -22475,9 +22598,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/neutral/aristodrink.lua:60
-#, fuzzy
 msgid "Delivery"
-msgstr "生成完了！"
+msgstr ""
 
 #: ../dat/missions/neutral/aristodrink.lua:61
 #, lua-format
@@ -22514,9 +22636,8 @@ msgid "her"
 msgstr ""
 
 #: ../dat/missions/neutral/aristodrink.lua:73
-#, fuzzy
 msgid "his"
-msgstr "宇宙船"
+msgstr ""
 
 #: ../dat/missions/neutral/aristodrink.lua:77
 msgid "he"
@@ -22568,9 +22689,8 @@ msgid "blonde"
 msgstr ""
 
 #: ../dat/missions/neutral/aristodrink.lua:82
-#, fuzzy
 msgid "red"
-msgstr "クレジット"
+msgstr "rudy"
 
 #: ../dat/missions/neutral/aristodrink.lua:82
 msgid "strawberry blonde"
@@ -23567,9 +23687,8 @@ msgid "DIY Nerds"
 msgstr ""
 
 #: ../dat/missions/neutral/diy-nerds.lua:17
-#, fuzzy
 msgid "20000 credits"
-msgstr "%sクレジット"
+msgstr "20000 kredytów"
 
 #: ../dat/missions/neutral/diy-nerds.lua:18
 msgid "Cart some nerds to their contest, and back."
@@ -23869,9 +23988,8 @@ msgstr ""
 
 #: ../dat/missions/neutral/drunkard.lua:45
 #: ../dat/missions/zalek/zlk_cargorun.lua:42
-#, fuzzy
 msgid "Success"
-msgstr "ミッション完了"
+msgstr ""
 
 #: ../dat/missions/neutral/drunkard.lua:46
 msgid ""
@@ -23893,9 +24011,8 @@ msgstr ""
 
 #: ../dat/missions/neutral/drunkard.lua:49
 #: ../dat/missions/zalek/zlk_cargorun.lua:46
-#, fuzzy
 msgid "Takeoff"
-msgstr "出発"
+msgstr "Odleć"
 
 #: ../dat/missions/neutral/drunkard.lua:50
 msgid ""
@@ -25102,9 +25219,8 @@ msgstr ""
 #: ../dat/missions/neutral/kidnapped/traffic_01.lua:40
 #: ../dat/missions/pirate/hitman.lua:28 ../dat/missions/pirate/hitman2.lua:29
 #: ../dat/missions/pirate/hitman3.lua:24 ../dat/missions/pirate/ruse.lua:37
-#, fuzzy
 msgid "Mission Complete"
-msgstr "ロード完了"
+msgstr ""
 
 #: ../dat/missions/neutral/kidnapped/traffic_01.lua:41
 msgid ""
@@ -25474,9 +25590,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/neutral/oldwoman.lua:18
-#, fuzzy
 msgid "Delivery complete"
-msgstr "生成完了！"
+msgstr ""
 
 #: ../dat/missions/neutral/oldwoman.lua:19
 msgid ""
@@ -25604,9 +25719,8 @@ msgstr ""
 #: ../dat/missions/neutral/patrol.lua:29
 #: ../dat/missions/neutral/pirbounty_dead.lua:45
 #: ../dat/missions/neutral/sightseeing.lua:31
-#, fuzzy
 msgid "Mission Completed"
-msgstr "ロード完了"
+msgstr ""
 
 #: ../dat/missions/neutral/patrol.lua:31
 msgid ""
@@ -25632,9 +25746,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/neutral/patrol.lua:36
-#, fuzzy
 msgid "Mission Abandoned"
-msgstr "ミッション失敗"
+msgstr ""
 
 #: ../dat/missions/neutral/patrol.lua:38
 msgid ""
@@ -26257,9 +26370,9 @@ msgid "Board checkpoint 3"
 msgstr ""
 
 #: ../dat/missions/neutral/race1.lua:54 ../dat/missions/neutral/race2.lua:64
-#, fuzzy, lua-format
+#, lua-format
 msgid "Land at %s"
-msgstr "%s惑星"
+msgstr ""
 
 #: ../dat/missions/neutral/race1.lua:57 ../dat/missions/neutral/race2.lua:67
 msgid "Let's do this!"
@@ -26562,9 +26675,9 @@ msgstr ""
 
 #: ../dat/missions/neutral/runaway/runaway_cynthia.lua:16
 #: ../dat/missions/neutral/runaway/runaway_search.lua:15
-#, fuzzy, lua-format
+#, lua-format
 msgid "%s credits on delivery."
-msgstr "%sクレジット"
+msgstr ""
 
 #: ../dat/missions/neutral/runaway/runaway_cynthia.lua:19
 msgid "\"Thank you. But we must leave now, before anyone sees me.\""
@@ -27289,9 +27402,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/neutral/trader_escort.lua:44
-#, fuzzy
 msgid "Success!"
-msgstr "ミッション完了"
+msgstr ""
 
 #: ../dat/missions/neutral/trader_escort.lua:45
 msgid ""
@@ -29453,9 +29565,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:35
-#, fuzzy
 msgid "Ready for action"
-msgstr "%dの党派を読み込んだ"
+msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:36
 #: ../dat/missions/shark/sh00_ancestorkill.lua:40
@@ -29487,9 +29598,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:48
-#, fuzzy
 msgid "Congratulations!"
-msgstr "人口"
+msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:49
 #, lua-format
@@ -29502,9 +29612,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:53
-#, fuzzy
 msgid "Your mission failed."
-msgstr "ミッション失敗"
+msgstr ""
 
 #: ../dat/missions/shark/sh00_ancestorkill.lua:55
 msgid "It's time to take off"
@@ -30201,9 +30310,8 @@ msgid "A Journey To %s"
 msgstr ""
 
 #: ../dat/missions/shark/sh06_arandon.lua:40
-#, fuzzy
 msgid "50,000 credits"
-msgstr "%sクレジット"
+msgstr ""
 
 #: ../dat/missions/shark/sh06_arandon.lua:45
 msgid ""
@@ -30236,9 +30344,8 @@ msgstr ""
 #. --
 #. Needed scripts
 #: ../dat/missions/shark/sh07_pirates.lua:22
-#, fuzzy
 msgid "The mission"
-msgstr "ミッション"
+msgstr "Misja"
 
 #: ../dat/missions/shark/sh07_pirates.lua:23
 msgid ""
@@ -30306,9 +30413,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/shark/sh07_pirates.lua:44
-#, fuzzy
 msgid "Target is gone!"
-msgstr "目的惑星"
+msgstr ""
 
 #: ../dat/missions/shark/sh07_pirates.lua:45
 msgid ""
@@ -32749,9 +32855,8 @@ msgstr ""
 #. This is the mission used in tutorial: missions and events.
 #. localization stuff, translators would work here
 #: ../dat/missions/tutorial/tutmis.lua:7
-#, fuzzy
 msgid "Mission"
-msgstr "ミッション"
+msgstr "Misja"
 
 #: ../dat/missions/tutorial/tutmis.lua:8
 msgid ""
@@ -32826,9 +32931,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/tutorial/tutmis.lua:21
-#, fuzzy
 msgid "Tutorial mission"
-msgstr "チュートリアルのメニュー"
+msgstr "Samouczek"
 
 #: ../dat/missions/tutorial/tutmis.lua:22
 msgid "Fly to the Cherokee system"
@@ -33086,9 +33190,8 @@ msgstr ""
 #. move to the player ship
 #. display msgs and have the ships disappear and fail the mission...
 #: ../dat/missions/zalek/sciencegonewrong/00_sciwrong.lua:266
-#, fuzzy
 msgid "Mission failed!"
-msgstr "ミッション失敗"
+msgstr "Niepowodzenie!"
 
 #. if the player just kills the empire ships he looses emp reputation...
 #.
@@ -33423,9 +33526,8 @@ msgstr ""
 #. + vec2.new(dist*math.cos(math.pi*2*rnd.rnd()),dist*math.sin(2*math.pi*rnd.rnd()))
 #. pilot.toggleSpawn(true)
 #: ../dat/missions/zalek/sciencegonewrong/02_sciwrong.lua:138
-#, fuzzy
 msgid "Target out of range"
-msgstr "目的惑星"
+msgstr ""
 
 #: ../dat/missions/zalek/sciencegonewrong/02_sciwrong.lua:244
 msgid ""
@@ -33495,9 +33597,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/zalek/zlk_cargorun.lua:39
-#, fuzzy
 msgid "Deliver the Equipment"
-msgstr "装備"
+msgstr ""
 
 #: ../dat/missions/zalek/zlk_cargorun.lua:40
 msgid ""
@@ -33710,9 +33811,8 @@ msgid ""
 msgstr ""
 
 #: ../dat/missions/zalek/zlk_test.lua:50
-#, fuzzy
 msgid "Mission failed"
-msgstr "ミッション失敗"
+msgstr "Niepowodzenie"
 
 #: ../dat/missions/zalek/zlk_test.lua:51
 msgid "You traveled without the engine."
@@ -35035,7 +35135,7 @@ msgstr ""
 
 #: ../dat/scripts/pilot/pirate.lua:275
 msgid "Death"
-msgstr ""
+msgstr "Śmierć"
 
 #: ../dat/scripts/pilot/pirate.lua:276
 msgid "Doom"
@@ -35164,3 +35264,63 @@ msgstr ""
 #: ../dat/scripts/pilot/pirate.lua:310
 msgid "Scythe"
 msgstr ""
+
+#~ msgid "SDLK_y_Dialogue"
+#~ msgstr "SDLK_t"
+
+#~ msgid "SDLK_n_Dialogue"
+#~ msgstr "SDLK_n"
+
+#~ msgid "SDLK_o_Dialogue"
+#~ msgstr "SDLK_o"
+
+#~ msgid "SDLK_c_Dialogue"
+#~ msgstr "SDLK_a"
+
+#~ msgid "SDLK_t_Land"
+#~ msgstr "SDLK_o"
+
+#~ msgid "SDLK_a_LandShipyard"
+#~ msgstr "SDLK_p"
+
+#~ msgid "SDLK_t_LandShipyard"
+#~ msgstr "SDLK_o"
+
+#~ msgid "SDLK_b_LandShipyard"
+#~ msgstr "SDLK_k"
+
+#~ msgid "SDLK_b_Load"
+#~ msgstr "SDLK_p"
+
+#~ msgid "SDLK_l_Load"
+#~ msgstr "SDLK_w"
+
+#~ msgid "SDLK_d_Load"
+#~ msgstr "SDLK_k"
+
+#~ msgid "SDLK_l_MainMenu"
+#~ msgstr "SDLK_w"
+
+#~ msgid "SDLK_n_MainMenu"
+#~ msgstr "SDLK_n"
+
+#~ msgid "SDLK_t_MainMenu"
+#~ msgstr "SDLK_s"
+
+#~ msgid "SDLK_e_MainMenu"
+#~ msgstr "SDLK_e"
+
+#~ msgid "SDLK_o_MainMenu"
+#~ msgstr "SDLK_o"
+
+#~ msgid "Creators"
+#~ msgstr "Twórcy"
+
+#~ msgid "SDLK_c_MainMenu"
+#~ msgstr "SDLK_t"
+
+#~ msgid "SDLK_x_MainMenu"
+#~ msgstr "SDLK_k"
+
+#~ msgid "jajebe"
+#~ msgstr "SDLK_w"
