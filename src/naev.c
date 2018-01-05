@@ -192,7 +192,7 @@ int main( int argc, char** argv )
    /* Set up locales. */
    setlocale(LC_ALL, "");
    //bindtextdomain("naev", LOCALEDIR);
-   bindtextdomain("naev", "po/");
+   bindtextdomain("naev", "lang/");
    textdomain("naev");
 
    /* Save the binary path. */
