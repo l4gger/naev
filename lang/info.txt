@@ -1,0 +1,2 @@
+Translations will be copied into this folder:
+./lang/<language>/LC_MESSAGES/naev.mo
