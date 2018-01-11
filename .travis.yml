@@ -46,7 +46,8 @@ before_install:
       hdiutil attach ~/SDL2.dmg
       mkdir -p ~/Library/Frameworks
       cp -r /Volumes/SDL2/SDL2.framework ~/Library/Frameworks/SDL2.framework
-
+      brew update
+      
       brew install \
         fontconfig \
         freetype \
